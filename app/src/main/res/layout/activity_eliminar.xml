@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+                android:id="@+id/edit_text_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:hint="@string/texto1"
+                android:padding="4dp"
+                android:textSize="24sp"
+                android:autofillHints=""
+                android:inputType="" />
+
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="CLIENTE" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Nombre: " android:padding="3dip" />
+                <EditText
+                    android:id="@+id/campoCliente"
+                    android:layout_width="147dp"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Telefono #1 : " android:padding="3dip" />
+                <EditText
+                    android:id="@+id/campoTelefono"
+                    android:layout_width="147dp"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Telefono #2 : " android:padding="3dip" />
+                <EditText
+                    android:id="@+id/campoTelefono2"
+                    android:layout_width="147dp"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Telefono #3 : " android:padding="3dip" />
+                <EditText
+                    android:id="@+id/campoTelefono3"
+                    android:layout_width="147dp"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Direccion: " android:padding="3dip" />
+                <EditText
+                    android:id="@+id/campoPrecio"
+                    android:layout_width="147dp"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apagar" />
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/novo" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/adicionar" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/mostrar" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+

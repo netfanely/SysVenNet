@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Net Fanely</string>
+    <!--string name="texto1">text_valor</string-->
+    <string name="texto2">texto valor 2</string>
+    <string name="msg_verde_e_branco">Texto verde e branco - i18n</string>
+    <string name="msg_vermelho_e_branco">Texto vermelho e branco i18n</string>
+    <string name="texto1">SYSVENNET</string>
+    <string name="textoazul">SYSVENNET</string>
+
+</resources>
